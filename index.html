@@ -1,25 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
-    <h1>Formulário de cadastro</h1>
-    <form> 
-        <label for="user" >Nome</label>
-        <input id="user" type="text" />
-        <br />
-        <label for="emails">E-mail</label>
-        <input id="emails" type="email" />
-        <br />
-        <label for="senha">Senha</label>
-        <input id="senha" type="text">
-        <br />
-        <button type="submit">
-            Cadastrar
-        </button>
-    </form>
+    <header>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                        </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#tecnology" title="Ir para a seção de tecnologia">Tecnologia</a>
+                    </li>
+                    <li>
+                        <a href="#mundo-e-politica" title="Ir para a seção de Mundo e Política">Mundo e Política</a>
+                    </li>
+                </ul>
+        </nav>
+        </div>
+    </header>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                    <header>
+                        <time class="creation-date">13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                    <header>
+                        <time class="creation-date">13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Noite do Superbowl</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time class="creation-date">13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time class="creation-date">13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+            <article>
+            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+            <header>
+                <time class="creation-date">13/07/2022 às 12:35</time>
+            </header>
+            <h3>Dólar em alta de 0.50%</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+            <header>
+                <time class="creation-date">13/07/2022 às 12:35</time>
+            </header>
+            <h3>Euro em queda de 0.40%</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+            <header>
+                <time class="creation-date">13/07/2022 às 12:35</time>
+            </header>
+            <h3>Alta no preço do barril do petróleo</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+            </div>
+        </div>
+    </section>
+    <section id="tecnology">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/hackeranonimo.jpg" alt="hacker teclando"/>
+                    <header>
+                        <time class="creation-date">31/01/2025 às 22:00</time>
+                    </header>
+                    <h3>Cybersecurity: Ataques a Infraestruturas Críticas Aumentam</h3>
+                    <p>
+                        Em 2025 Especialistas em segurança cibernética alertam para um aumento significativo nos ataques a infraestruturas críticas em 2025. Setores como energia, saúde e transporte estão entre os mais visados, com hackers usando novas técnicas para infiltrar sistemas essenciais.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/iaanalisemedica.jpg" alt="representação de medico utilizando I.A."/>
+                    <header>
+                        <time class="creation-date">31/01/2025 às 22:00</time>
+                    </header>
+                    <h3>Google Lança Nova IA para Diagnóstico Médico</h3>
+                    <p>
+                        O Google anunciou o lançamento de uma inteligência artificial que pode ajudar médicos a diagnosticar doenças com maior precisão. O modelo foi treinado com milhões de exames médicos e promete melhorar o tempo de resposta e a qualidade do diagnóstico, principalmente em áreas remotas.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="mundo-e-politica">
+        <div class="container">
+            <h2>Mundo e Política</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/ukdetails.jpg" alt="pessoa procurando detalhes no mapa do U.K."/>
+                    <header>
+                        <time class="creation-date">31/01/2025 às 22:00</time>
+                    </header>
+                    <h3>Novo Governo no Reino Unido Promete Reformas Sociais</h3>
+                    <p>
+                        O novo governo britânico, liderado por Rishi Sunak, apresentou um pacote de reformas sociais que inclui aumento no salário mínimo e melhorias no sistema de saúde público. A proposta gerou debates intensos, com críticos apontando a falta de detalhes no financiamento.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/brasilenergialimpa.jpg" alt="imagem cartunesca do brasil com exemplos de energia limpa"/>
+                    <header>
+                        <time class="creation-date">31/01/2025 às 22:00</time>
+                    </header>
+                    <h3>Brasil Anuncia Medidas para Redução de Emissões de Carbono</h3>
+                    <p>
+                        O governo brasileiro anunciou novas metas para a redução das emissões de carbono, com foco em energias renováveis e reflorestamento. O país se comprometeu a atingir a neutralidade de carbono até 2050, em um esforço para cumprir os compromissos internacionais relacionados ao clima.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
